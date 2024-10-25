@@ -29,7 +29,7 @@ func TestGetAPIKey(t *testing.T) {
 				"Authorization": []string{"ApiKey"},
 			},
 			output: "",
-			err:    errors.New("alformed authorization header"),
+			err:    errors.New("malformed authorization header"),
 		},
 	}
 
